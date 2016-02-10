@@ -1,0 +1,252 @@
+% BibTeX database for AFT at i3A
+
+%% bibtexfile{
+%%  author	= " ",
+%%  version	= "1.0",
+%%  date	= "10 April 2003",
+%%  filename	= "fuzzy.bib",
+%%  adress	= "Fachhochschule Trier
+%%		   University of Applied Sciences Trier
+%%		   Postfach 1826
+%%		   D-54208 Trier
+%%		   Germany",
+%%  email	= "<i3a.fh-trier.de>" }
+
+
+% How to use this file within an german document!
+%
+% - set 'german' as global option to documentclass
+%   e.g.: '\documentclass[12pt,a4paper,oneside,german,epsfig]{ai-paper}'
+% - use package 'babel': '\usepackage{babel}'
+% - use package 'bibgerm': '\usepackage{bibgerm}'
+% - use bibstyle 'geralpha', 'gerplain', ...
+%   e.g.: '\bibliographystyle{geralpha}'
+%
+% Within this .bib-file use 'and' to specify more than one author. 
+% You have to use only the english abbreviations WITHOUT curly brackets
+% for months! e.g.: 'jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul',
+% 'aug', 'sep', 'oct', 'nov', 'dec'.
+
+
+
+% Short explanation of entry types:
+%
+% Article:          An article from a journal or magazine.
+% Book:             A Book with an explicit publisher.
+% Booklet:          A work that is printed and bound, but without a 
+%                   named publisher or sponsoring institution.
+% InBook:           A part of a book which may be a chapter (or section
+%                   or whatever) and/or a range of pages.
+% InCollection:     A part of a book having ots own title.
+% InProceedings:    An article in a conference proceedings.
+% Manual:           Technical documentation.
+% Mastersthesis:    A Master's thesis.
+% Misc:             Use this type when nothing else fits.
+% PhDthesis:        A PhD thesis.
+% Proceedings:      The proceedings of a conference. See also: inproceedings.
+% Techreport:       A report published by a school or other institution, 
+%                   usally numbered within a series.
+%
+% Further Information may be found at www.din1505.informationskompetenz.net
+
+
+
+%%%%%%%% article
+%%
+%% An article from a journal or magazine.
+%%
+%% Required fields:
+%% author, title, journal, year
+%%
+%% Optional fields:
+%% volume, number, pages, month, note
+
+
+%%%%%%%% book
+%%
+%% A Book with an explicit publisher.
+%%
+%% Required fields:
+%% author or editor, title, publisher, year
+%%
+%% Optional fields:
+%% volume or number, series, address, edition, month, isbn, note
+
+
+%%%%%%%% booklet
+%%
+%% A work that is printed and bound, but without a named publisher or
+%% sponsoring institution.
+%%
+%% Required fields:
+%% title
+%%
+%% Optional fields:
+%% author, howpublished, address, month, year, note
+
+
+
+%%%%%%%% inbook
+%%
+%% A part of a book which may be a chapter (or section or whatever) and/or 
+%% a range of pages.
+%%
+%% Required fields:
+%% author or editor, title, chapter and/or pages, publisher, year
+%%
+%% Optional fields:
+%% volume or number, series, type, address, edition, month, note
+
+
+%%%%%%%% incollection
+%%
+%% A part of a book having its own title.
+%%
+%% Required fields:
+%% author, title, booktitle, publisher, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, type, chapter, pages, address, 
+%% edition, month, note
+@incollection{BabrowGabrielWhite:93,
+	author = {Daniel G. Bobrow and Richard P. Gabriel and Jon L. White},
+	title = {{CLOS in Context: The Shape of the Design Space}},
+	booktitle = {{Object Oriented Programming: The CLOS Perspective}},
+	publisher = {MIT Press},
+	year = {1993},
+	editor = {Andreas Paepcke}
+}
+
+@incollection{Fillion:05,
+	author = {Dominic Fillion},
+	title = {{Using Templates for Reflection in C++}},
+	chapter = {1.4},
+	pages = {39 -- 54},
+	booktitle = {{Game Programming Gems 5}},
+	publisher = {Charles River Media},
+	year = {2005},
+	editor = {Kim Pallister}
+}
+
+
+%%%%%%%% inproceedings
+%%
+%% An article in a conference preceedings.
+%%
+%% Required fields:
+%% author, title, booktitle, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, pages, address, month, organization, 
+%% publisher, note
+
+%%%%%%%% manual
+%%
+%% Technical documentation.
+%%
+%% Required fields:
+%% title
+%%
+%% Optional fields:
+%% author, editor, organization, address, edition, month, year, note
+@manual {ReflexExamples:06,
+	title = {{Reflex Dokumentation: Examples}},
+	address = {http://seal-reflex.web.cern.ch/seal-reflex/examples.html},
+	editor = {2006},
+	note = {Aufgerufen am 20.01.15}
+}
+
+@manual {ReflexGen:06,
+	title = {{Reflex Dokumentation: Generate Dictionaries}},
+	address = {http://seal-reflex.web.cern.ch/seal-reflex/gendict.html},
+	editor = {2006},
+	note = {Aufgerufen am 20.01.15}
+}
+
+@manual {Mirror:11,
+	title = {{Mirror Dokumentation}},
+	address = {http://kifri.fri.uniza.sk/\textasciitilde chochlik/mirror-lib/html/doxygen/mirror/html/index.html},
+	editor = {2011},
+	note = {Aufgerufen am 20.01.15}
+}
+
+@manual {CppDraft:14,
+	title = {{Working Draft, Standard for Programming Language C++}},
+	organization = {{International Organization for Standardization}},
+	note = {{ISO International Standard ISO/IEC 14882:2012(E) – Programming Language C++}},
+	year = {2014}
+}
+
+%%%%%%%% mastersthesis
+%%
+%% A Master's thesis.
+%%
+%% Required fields:
+%% author, title, school, year
+%%
+%% Optional fields:
+%% type, address, month, note
+
+
+
+%%%%%%%% phdthesis
+%%
+%% A PhD thesis.
+%%
+%% Required fields:
+%% author, title, school, year
+%% 
+%% Optional fields:
+%% type, address, month, note
+
+%%%%%%%% proceedings
+%%
+%% The proceedings of a conference. See also: inproceedings.
+%%
+%% Required fields:
+%% title, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, address, month, organization, publisher, note
+
+%%%%%%%% techreport
+%%
+%% A report published by a school or other institution, usally 
+%% numbered within a series.
+%%
+%% Required fields:
+%% author, title, institution, year
+%%
+%% Optional fields:
+%% type, number, address, month, note
+@techreport{CallForReflection:13,
+	author = {Jeff Snyder and Chandler Carruth},
+	title = {{Call For Compile-Time Reflection Proposals}},
+	type = {Programming Lanugage C++ Proposal},
+	number = {N3814},
+	year = {2013}
+}
+
+@techreport{ReflectionTemplateExpansion:14,
+	author = {Cleiton Santonia Silva and Daniel Auresco},
+	title = {{C++ type reflection via variadic template expansion}},
+	type = {Programming Lanugage C++ Proposal},
+	number = {N3951},
+	year = {2014}
+}
+
+@techreport{AttributeReflection:14,
+	author = {Cleiton Santonia Silva and Daniel Auresco},
+	title = {{Adding attribute reflection to C++}},
+	type = {Programming Lanugage C++ Proposal},
+	number = {N3984},
+	year = {2014}
+}
+
+@techreport{StaticReflection:14,
+	author = {Matú\v{s} Chochlík},
+	title = {{Static Reflection}},
+	type = {Programming Lanugage C++ Proposal},
+	number = {N996},
+	year = {2014}
+}
